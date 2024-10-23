@@ -28,9 +28,10 @@ section {
 }
 
 article {
-    flex: 1;
+    /* flex: calc((100% / 3) - 2rem); */
+    flex: 1 200px;
 }
 
-article:nth-of-type(2) {
+/* article:nth-of-type(2) {
     flex: 2;
-}
+} */
